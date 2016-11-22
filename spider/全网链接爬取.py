@@ -64,5 +64,4 @@ def sitemap(url):
 
 
 if __name__ == '__main__':
-    a = crawler('http://www.b5cai.com')
-    print a
+    crawler('http://www.b5cai.com')

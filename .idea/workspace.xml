@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bcc7096-8e5b-4d95-be51-0b95688fb93c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/全网链接爬取.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spider/spider_test.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spider/全网链接爬取.py" afterPath="$PROJECT_DIR$/spider/全网链接爬取.py" />
     </list>
     <ignored path="python_spider.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +30,8 @@
       <file leaf-file-name="全网链接爬取.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spider/全网链接爬取.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="549">
+              <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
               <folding>
                 <element signature="e#23#37#0" expanded="true" />
               </folding>
@@ -68,6 +66,7 @@
       <list>
         <option value="$PROJECT_DIR$/spider/__init__.py" />
         <option value="$PROJECT_DIR$/spider/spider_test.py" />
+        <option value="$PROJECT_DIR$/spider/全网链接爬取.py" />
       </list>
     </option>
   </component>
@@ -441,8 +440,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spider/全网链接爬取.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="549">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
           <folding>
             <element signature="e#23#37#0" expanded="true" />
           </folding>
