@@ -6,7 +6,7 @@ import urlparse
 
 
 def download(url, user_agent='wswp', try_numbers=2):
-    print 'trying %d Downloading...' % try_numbers, url
+    print 'trying %d Downloading...', url
     header = {'user_agent': user_agent}
     request = urllib2.Request(url, headers=header)
     try:
@@ -48,7 +48,7 @@ def crawler(url):
         link = crawler_link.pop()
         all_links = get_all_links(link)
         for return_link in all_links:
-            if urlparse.urljoin(url, '/') in return_link:
+            if urlparse.urljoin(url, '/') in return_link:  # 去除外网链接
                 if return_link not in seen_link:
                     seen_link.add(return_link)
                     crawler_link.append(return_link)
@@ -59,9 +59,5 @@ def crawler(url):
     print 'running over!!!!!!!!!!!!!!'
 
 
-def sitemap(url):
-    pass
-
-
 if __name__ == '__main__':
-    crawler('http://www.b5cai.com')
+    crawler('http://www.b5cai.com/')
